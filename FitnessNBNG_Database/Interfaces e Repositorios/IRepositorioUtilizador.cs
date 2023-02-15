@@ -11,7 +11,7 @@ namespace FitnessNBNG_Database.Interfaces_e_Repositorios
     {
         int ObterTotalDeUtilizadores();
 
-        bool AdicionarUtilizador(Utilizador utilizador);
+        Utilizador AdicionarUtilizador(Utilizador utilizador);
 
         void AtualizarUtilizador(Utilizador utilizador);
 

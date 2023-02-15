@@ -99,5 +99,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FitnessNBNG_Database\FitnessNBNG_Database.csproj">
+      <Project>{DB5BACAB-377D-403A-9ED1-F1C8ADCED767}</Project>
+      <Name>FitnessNBNG_Database</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
